@@ -1,0 +1,110 @@
+.hero {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.searchTab {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.searchType {
+  padding: 10px;
+}
+
+.footer-content {
+  bottom: 0;
+  position: fixed;
+}
+
+.navbar {
+  background-color: #cc0066;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#cc0066), to(#ff5050));
+  background-image: linear-gradient(to bottom right, #cc0066, #ff5050);
+  height: 50px;
+  padding: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #140500;
+  padding: 20px;
+}
+
+.link1 {
+  font-family: cursive;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.nav-item {
+  float: left;
+}
+
+.login-button {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+}
+
+.navlogin {
+  padding: 13px;
+  float: left;
+  background-color: #140500;
+  color: #fff1ec;
+}
+
+.modal-container {
+  position: relative;
+  z-index: 10;
+}
+
+.Modal-body {
+  padding: 40px;
+  background-color: #fff1ec;
+  border: 2px solid #140500;
+}
+
+.goolge-login {
+  background-color: #ff4000;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff1ec;
+  float: left;
+}
+
+.googleicon {
+  padding: 5px;
+}
+
+.facebookicon {
+  padding: 5px;
+}
+
+.facebooklogin {
+  background: #0EC3EF;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff1ec;
+  float: left;
+}
+
+.closebutton {
+  float: right;
+  font-size: 18px;
+  padding: 8px;
+  color: #140500;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#cc0066), to(#ff5050));
+  background-image: linear-gradient(to bottom right, #cc0066, #ff5050);
+}
+/*# sourceMappingURL=input.css.map */

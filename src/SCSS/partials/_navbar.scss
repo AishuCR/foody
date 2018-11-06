@@ -1,0 +1,29 @@
+$color:(
+    navbackground:#cc0066,
+    textcolor: #140500
+);
+
+.navbar{
+    background-color: map-get($color, navbackground );
+    background-image: linear-gradient(to bottom right, #cc0066, #ff5050);
+    height: 50px;
+    padding: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: map-get($color, textcolor );
+    padding: 20px;
+}
+        .link1{
+    font-family: cursive;
+    font-size: 48px;
+    font-weight: 800;
+}
+.nav-item{
+    float: left;
+}
+.login-button{
+    justify-content: flex-end;
+    display: flex;
+    padding: 5px;
+  }

@@ -1,0 +1,25 @@
+/* 
+  .modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+    height:500px;
+  }
+.modal-backdrop{
+  background:none;
+}
+.Modal-body{
+    background-image: linear-gradient(to bottom right, #cc0066, #ff5050);
+
+}
+
+.modal-holder{
+  position:absolute;
+  top:0;
+  width:300px;
+  height:300px;
+  /* background:white; */
+  /* border-radius:10%;;
+  z-index:-10;
+}
+.close{
+  color: #ff7f00;
+/* } */ 

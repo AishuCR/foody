@@ -1,0 +1,50 @@
+$color:(
+    backgroundcolor: #fff1ec,
+    contentcolor: #140500,
+    google: #ff4000,
+    textcolor: #F3FAFC,
+    facebook:#0EC3EF
+);
+.navlogin{
+    padding: 13px;
+    float: left;
+    background-color: map-get($color, contentcolor);
+    color: map-get($color, backgroundcolor );
+}
+
+.modal-container {
+    position: relative;
+    z-index: 10; 
+  }
+  .Modal-body{
+      padding: 40px;
+      background-color: map-get($color, backgroundcolor );
+      border: 2px solid #140500;
+  }
+  .goolge-login{
+    background-color: map-get($color, google );
+    padding:20px;
+    font-size: 18px;
+    color : map-get($color ,  backgroundcolor );
+    float: left;
+}
+.googleicon{
+    padding: 5px;
+}
+.facebookicon{
+    padding: 5px;
+}
+.facebooklogin{
+  background: map-get($color, facebook );
+  padding: 20px;
+  font-size: 18px;
+  color : map-get($color ,  backgroundcolor );
+  float: left;
+}
+.closebutton{
+ float: right;
+ font-size: 18px;
+ padding: 8px;
+ color: map-get($color, contentcolor );
+ background-image: linear-gradient(to bottom right, #cc0066, #ff5050);
+}
